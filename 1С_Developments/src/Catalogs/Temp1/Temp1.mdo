@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a8990d8-c051-45c8-b951-8899de2627df">
+  <producedTypes>
+    <objectType typeId="3319a4ab-516c-4ff7-b819-4fc6f4513cbb" valueTypeId="29b0475b-53f7-48f8-9bd3-17d9fc0512fd"/>
+    <refType typeId="74e15415-15b5-4a55-9605-7c4899fbfe1f" valueTypeId="abe98701-8b71-43cd-ab37-bcc104b65401"/>
+    <selectionType typeId="ba705c37-b454-44ba-b92e-af32e8b6268f" valueTypeId="8871e00d-3bcd-4200-9755-fae87f4996ec"/>
+    <listType typeId="45e140e4-41f3-4ff4-96fa-edb45aa7f48b" valueTypeId="12818b95-91e1-449f-a218-8ac7dfac0e27"/>
+    <managerType typeId="3d507fd1-4543-4e64-96a5-cf53b5ef8ecc" valueTypeId="088ca303-9d9c-4e69-80f6-5080c4aedbe0"/>
+  </producedTypes>
+  <name>Temp1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Temp1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Temp1.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Temp1.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
