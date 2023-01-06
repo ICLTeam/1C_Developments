@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a8990d8-c051-45c8-b951-8899de2627df">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a8990d8-c051-45c8-b951-8899de2627df">
   <producedTypes>
     <objectType typeId="3319a4ab-516c-4ff7-b819-4fc6f4513cbb" valueTypeId="29b0475b-53f7-48f8-9bd3-17d9fc0512fd"/>
     <refType typeId="74e15415-15b5-4a55-9605-7c4899fbfe1f" valueTypeId="abe98701-8b71-43cd-ab37-bcc104b65401"/>
@@ -30,4 +30,22 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="463ebc1e-8463-4475-ab75-320079737a18">
+    <name>Attribute1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Attribute1</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
